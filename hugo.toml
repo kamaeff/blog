@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'My New Hugo Site'
+# theme = 'archie'
+# theme = 'terminal'
+# theme = 'hugo-bearcub'
+# theme = 'ananke'
+theme = 'LoveIt'
+
+# sectionPagesMenu = 'main'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
