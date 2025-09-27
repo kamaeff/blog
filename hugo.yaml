@@ -1,0 +1,46 @@
+baseURL: https://blog.kamaeff.com/
+languageCode: en-US
+title: kamaeff's blog
+# theme = 'archie'
+# theme = 'terminal'
+# theme = 'hugo-bearcub'
+# theme = 'ananke'
+theme: 'LoveIt'
+
+# sectionPagesMenu = 'main'
+caches:
+  images:
+    dir = ':cacheDir/images'
+
+menu:
+  main:
+    - weight: 0
+      identifier: wishlist
+      # pre: "prepre"
+      # post: "postpost"
+      name: "Wishlist"
+      url: "https://wishlist.kamaeff.com"
+      # title: ""
+
+
+
+params:
+  page:
+    comment:
+      enable: true
+      giscus:
+        repo: kamaeff/blog-giscus
+        repoId: R_kgDOP3tIYA
+        category: Announcements
+        categoryId: DIC_kwDOP3tIYM4Cv8Rv
+        # automatically adapt the current theme i18n configuration when empty
+        lang: ""
+        mapping: pathname
+        data-strict: 1
+        reactionsEnabled: 1
+        emitMetadata: 0
+        inputPosition: top
+        lightTheme: light
+        darkTheme: dark
+        lazyLoading: true
+        

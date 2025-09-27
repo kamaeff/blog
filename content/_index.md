@@ -1,7 +1,7 @@
 ---
 title: "Home"
 menu: "main"
-weight: 1
+weight: 100
 ---
 
 Some text uhm lorem ipsum dolores blah blah blah
