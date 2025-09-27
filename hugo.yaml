@@ -29,6 +29,7 @@ params:
     comment:
       enable: true
       giscus:
+        enable: true
         repo: kamaeff/blog-giscus
         repoId: R_kgDOP3tIYA
         category: Announcements
@@ -36,11 +37,20 @@ params:
         # automatically adapt the current theme i18n configuration when empty
         lang: ""
         mapping: pathname
-        data-strict: 1
-        reactionsEnabled: 1
-        emitMetadata: 0
+        data-strict: "1"
+        reactionsEnabled: "0"
+        emitMetadata: "0"
         inputPosition: top
         lightTheme: light
         darkTheme: dark
         lazyLoading: true
         
+      telegram:
+        enable: true
+        siteID: ox1zpEYk
+        limit: 5
+        height: "auto"
+        color: bdebfc
+        colorful: true
+        dislikes: true
+        outlined: true
