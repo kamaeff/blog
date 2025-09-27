@@ -46,7 +46,7 @@ params:
         lazyLoading: true
         
       telegram:
-        enable: true
+        enable: false
         siteID: ox1zpEYk
         limit: 5
         height: "auto"
