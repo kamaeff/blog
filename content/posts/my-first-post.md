@@ -2,11 +2,13 @@
 date: '2025-09-22T11:39:42+04:00'
 draft: false
 title: 'My First Post'
+comment:
+    enable: true
 ---
 
-## Introduction
+Это тестовый пост. Посмотреть, как оно 
 
-POSTS
+
 
 This is **bold** text, and this is *emphasized* text.
 
